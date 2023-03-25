@@ -4,7 +4,6 @@
   "description": "<!-- TABLE OF CONTENTS -->",
   "main": "lib/server.js",
   "scripts": {
-    "start": "npm run build && node src/server.js",
     "build": "npm run build && node src/server.js",
     "lint:fix": "eslint src --fix --cache",
     "test": "jest",
