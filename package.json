@@ -7,7 +7,6 @@
     "start": "node src/server.js",
     "build": "babel src --out-dir docs --out-dir lib",
     "lint:fix": "eslint src --fix --cache",
-    "test": "jest",
     "coverage":"jest --collect-coverage"
   },
   "repository": {
