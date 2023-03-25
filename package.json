@@ -2,7 +2,7 @@
   "name": "e-comm-team-techtitans-bn",
   "version": "1.0.0",
   "description": "<!-- TABLE OF CONTENTS -->",
-  "main": "lib/server.js",
+  "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
     "build": "babel src --out-dir docs --out-dir lib",
