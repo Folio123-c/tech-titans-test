@@ -23,5 +23,5 @@ app.get('/', (req, res) => {
 
 // app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(combinedDocs));
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(combinedDocs));
-
+console.log('Tech-titans Team')
 export default app;
