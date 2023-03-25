@@ -5,7 +5,6 @@
   "main": "lib/server.js",
   "scripts": {
     "start": "node src/server.js",
-    "start": "npm run build && node src/server.js",
     "build": "babel src --out-dir docs --out-dir lib",
     "lint:fix": "eslint src --fix --cache",
     "test": "jest",
